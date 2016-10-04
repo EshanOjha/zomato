@@ -1,0 +1,42 @@
+<html ng-app="myApp">
+<head>
+	<title>ResturantBooking</title>
+	
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <label>All Resturants</label>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#/resturant/add">Admin</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<div ng-view></div>
+    		</div>
+    	</div>
+     </div>
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/app.js"></script>
+	<script src="/controllers/adminResturant.js"></script>
+    <script src="/controllers/resturantController.js"></script>
+    <script src="/controllers/bookedController.js"></script>
+    
+    
+	
+</body>
+</html>

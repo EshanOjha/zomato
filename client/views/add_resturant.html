@@ -1,0 +1,53 @@
+<a href="#/books">Go Back</a>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add Resturant Here</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+      <form ng-submit="addResturant()">
+        <div class="form-group">
+          <label>Resturant's Name</label>
+          <input type="text" class="form-control" ng-model="resturant.name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label>Resturant WebSite</label>
+          <input type="text" class="form-control" ng-model="resturant.website" placeholder="website">
+        </div>
+          <div class="form-group">
+          <label>Resturant's Location</label>
+          <input type="text" class="form-control" ng-model="resturant.location" placeholder="Location">
+        </div>
+        
+          <div class="form-group">
+          <label>Cuisines</label>
+          <input type="text" class="form-control" ng-model="resturant.cuisines" placeholder="cuisines">
+        </div>
+        
+          <div class="form-group">
+          <label>Cost for Two</label>
+          <input type="text" class="form-control" ng-model="resturant.cost" placeholder="cost">
+        </div>
+        
+          
+        <div class="form-group">
+          <label>Total Tables Available</label>
+          <input type="text" class="form-control" ng-model="resturant.tables" placeholder="tables">
+        </div>
+          
+        <div class="form-group">
+          <label>Capacity</label>
+          <textarea class="form-control" ng-model="resturant.capacity" placeholder="Capacity"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Image URL</label>
+          <input type="text" class="form-control" ng-model="resturant.image_url" placeholder="Image URL">
+        </div>
+        
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>

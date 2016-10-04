@@ -1,0 +1,36 @@
+<div class="row">
+    <h2 class="center">Book your Resturant</h2>
+</div>
+<div class="row">
+    <div class="col m6 s12 offset-m3">
+        <form ng-submit="submitForm()">
+        <div class="card-panel">
+            <div class="row">
+                <div class="input-field">
+                        <label >Arrival Date</label>
+                    <input id="check-in-date" class="form-control" type="date" ng-model="formAData.checkinDate">
+                 </div>
+                <br>
+            
+                
+                
+                
+            <div class="col m2 s12">
+
+                <label for="occupancy">Table to Seat</label>
+                    <select class="" id="occupancy" ng-model="formAData.min_occupancy" material-select>
+                        <option ng-repeat="value in select_occupancy" value="{{value}}">{{value}}</option>
+                    </select>
+                </div>
+            
+            <div class="row">
+                <div class="col m4 offset-m4">
+                    <input type="submit" value="Confirm"/>
+                </div>
+            </div>
+                </div>
+        </div>
+        </form>
+    </div>
+</div>
+ 
