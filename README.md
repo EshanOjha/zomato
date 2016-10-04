@@ -14,5 +14,8 @@ Get bookings for a table by time range
 
 please refer screenshot of appliction:
 
+![alt text](Welcome Page.png "welcome page which contains all onboarding resturant")
+
+
 
 
