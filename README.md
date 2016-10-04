@@ -17,5 +17,16 @@ please refer screenshot of appliction:
 ![alt text](Welcome Page.png "welcome page which contains all onboarding resturant")
 
 
+![alt text](Welcome Page 1.png "welcome page which contains few more onboarding resturant")
+
+
+
+![alt text](Admin Page 1.png "Admin page where admin can enter resturant details")
+
+
+![alt text](Booking and Review page.png "page where user can see all it's booking and provide their review")
+
+
+
 
 
