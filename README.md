@@ -21,7 +21,7 @@ please refer screenshot of appliction:
 
 
 
-![alt text](Admin Page 1.png "Admin page where admin can enter resturant details")
+![alt text](Admin Page.png "Admin page where admin can enter resturant details")
 
 
 ![alt text](Booking and Review page.png "page where user can see all it's booking and provide their review")
